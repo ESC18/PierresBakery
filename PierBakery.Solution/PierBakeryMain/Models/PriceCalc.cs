@@ -6,10 +6,6 @@ namespace PriceCalc.Models
     {
         public int UserNumBread;
 
-        public int BreadOutput(int UserNumBread) 
-        {
-
-        }
     }
 }
 
