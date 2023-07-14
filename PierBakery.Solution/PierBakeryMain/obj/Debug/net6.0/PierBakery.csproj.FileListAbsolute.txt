@@ -1,0 +1,15 @@
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\obj\Debug\net6.0\PierBakery.csproj.AssemblyReference.cache
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\obj\Debug\net6.0\PierBakery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\obj\Debug\net6.0\PierBakery.AssemblyInfoInputs.cache
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\obj\Debug\net6.0\PierBakery.AssemblyInfo.cs
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\obj\Debug\net6.0\PierBakery.csproj.CoreCompileInputs.cache
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\bin\Debug\net6.0\PierBakery.exe
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\bin\Debug\net6.0\PierBakery.deps.json
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\bin\Debug\net6.0\PierBakery.runtimeconfig.json
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\bin\Debug\net6.0\PierBakery.dll
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\bin\Debug\net6.0\PierBakery.pdb
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\obj\Debug\net6.0\PierBakery.dll
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\obj\Debug\net6.0\refint\PierBakery.dll
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\obj\Debug\net6.0\PierBakery.pdb
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\obj\Debug\net6.0\PierBakery.genruntimeconfig.cache
+C:\Users\SC\Downloads\PierBakery\PierBakery.Solution\PierBakeryMain\obj\Debug\net6.0\ref\PierBakery.dll
