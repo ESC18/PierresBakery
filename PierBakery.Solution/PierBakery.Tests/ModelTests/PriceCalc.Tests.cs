@@ -35,5 +35,15 @@ namespace PriceCalc.Tests.ModelTests
             int expectedPrice = (userNumPastry / 4) * 6;
             Assert.AreEqual(expectedPrice, result);
         }
+        
+        [TestMethod]
+        public void PastryOutput_ReturnsCorrectPrice_ForLessThanOrEqualTo0()
+        {
+            int userNumPastry = 0; // Less than or equal to 0
+            PastryPrice pastryPrice = new PastryPrice();
+            int result = pastryPrice.PastryOutput(userNumPastry);
+            int expectedPrice = 0;
+            Assert.AreEqual(expectedPrice, result);
+        }
     }
 }
