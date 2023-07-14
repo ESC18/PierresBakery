@@ -18,11 +18,21 @@ namespace PriceCalc.Models
             return breadTotal;
         }
     }
+    public class PastryPrice 
+    {
+        public int PastryOutput(int userNumPastry)
+        {
+            if (userNumPastry <= 0)
+            {
+                return 0;
+            }
+
+            int freePastries = userNumPastry / 4;
+            int pastryTotal = (userNumPastry - freePastries) * 2;
+
+            return pastryTotal;
+        }
+    }
 }
 
 
-
-public class PastryPrice
-{
-    public int UserNumPastry;
-}

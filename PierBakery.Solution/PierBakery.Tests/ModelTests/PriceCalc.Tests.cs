@@ -25,5 +25,15 @@ namespace PriceCalc.Tests.ModelTests
             int expectedPrice = 0;
             Assert.AreEqual(expectedPrice, result);
         }
+        
+        [TestMethod]
+        public void PastryOutput_ReturnsCorrectPrice_ForMultipleOf4()
+        {
+            int userNumPastry = 8; // Multiple of 4
+            PastryPrice pastryPrice = new PastryPrice();
+            int result = pastryPrice.PastryOutput(userNumPastry);
+            int expectedPrice = (userNumPastry / 4) * 6;
+            Assert.AreEqual(expectedPrice, result);
+        }
     }
 }
