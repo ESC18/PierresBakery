@@ -1,38 +1,50 @@
 using System;
 
-namespace PriceCalc.Models 
+namespace PriceCalc.Models
 {
-    public class BreadPrice 
+    public class BreadPrice
     {
-        public int UserNumBread;
-         public int BreadOutput(int userNumBread) 
+        public int UserNumBread { get; }
+
+        public BreadPrice(int userNumBread)
         {
-            if (userNumBread <= 0)
+            UserNumBread = userNumBread;
+        }
+
+        public int BreadOutput()
+        {
+            if (UserNumBread <= 0)
             {
                 return 0;
             }
 
-            int freeLoaves = userNumBread / 3;
-            int breadTotal = (userNumBread - freeLoaves) * 5;
+            int freeLoaves = UserNumBread / 3;
+            int breadTotal = (UserNumBread - freeLoaves) * 5;
 
             return breadTotal;
         }
     }
-    public class PastryPrice 
+
+    public class PastryPrice
     {
-        public int PastryOutput(int userNumPastry)
+        public int UserNumPastry { get; }
+
+        public PastryPrice(int userNumPastry)
         {
-            if (userNumPastry <= 0)
+            UserNumPastry = userNumPastry;
+        }
+
+        public int PastryOutput()
+        {
+            if (UserNumPastry <= 0)
             {
                 return 0;
             }
 
-            int freePastries = userNumPastry / 4;
-            int pastryTotal = (userNumPastry - freePastries) * 2;
+            int freePastries = UserNumPastry / 4;
+            int pastryTotal = (UserNumPastry - freePastries) * 2;
 
             return pastryTotal;
         }
     }
 }
-
-

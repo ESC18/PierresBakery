@@ -32,11 +32,11 @@ namespace UI
             int numBread = int.Parse(breadInput);
             int numPastry = int.Parse(pastryInput);
 
-            BreadPrice breadCalculation = new BreadPrice();
-            int breadCost = breadCalculation.BreadOutput(numBread);
+            BreadPrice breadCalculation = new BreadPrice(numBread);
+            int breadCost = breadCalculation.BreadOutput();
 
-            PastryPrice pastryCalculation = new PastryPrice();
-            int pastryCost = pastryCalculation.PastryOutput(numPastry);
+            PastryPrice pastryCalculation = new PastryPrice(numPastry);
+            int pastryCost = pastryCalculation.PastryOutput();
             int totalCost = pastryCost + breadCost;
 
             Console.WriteLine($"Total cost for {numBread} loaves of bread: ${breadCost}");
